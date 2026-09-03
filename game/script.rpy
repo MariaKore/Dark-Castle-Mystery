@@ -3,7 +3,13 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
+
 define e = Character("Eileen")
+
+define n = Character("Narrator", kind=narrator) # idk if we need the kind indication 
+define y = Character("You")
+define dragon = Character("Little Dragon")
+
 
 
 # The game starts here.
